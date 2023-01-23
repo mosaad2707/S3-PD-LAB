@@ -79,7 +79,7 @@ struct node *BUILD_TREE(char e[], int *s)
     root = create_node(n);
     }
 
-    if(e[*s-1]=='0'){
+    if(e[*s-1]=='0' && n==0 ){
         int j=0;
         root=create_node(j);
     }
